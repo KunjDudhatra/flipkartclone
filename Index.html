@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <input type="search" placeholder="Search for products">
+      
+        <ul class="nav-list" id="navList">
+            <img src="C:\Users\Administrator\Desktop\23IT028-WT\fkheaderlogo_exploreplus-44005d.svg" width="150" height="50" alt="Logo">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Products</a>
+                <ul class="dropdown">
+                    <li><a href="#">Grocery</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Fashion</a></li>
+                </ul>
+            </li>
+            <li>
+                <button id="loginBtn">Login</button>
+                <ul id="loginDropdown" class="dropdown">
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="carousel">
+    <div class="carousel-images">
+        <img src="7e57fd503c1b699f.webp" alt="Slide 1" class="carousel-slide active">
+        <img src="b5057c973aacae10.webp" alt="Slide 2" class="carousel-slide">
+        <img src="1e31c9d65e3b4592.webp" alt="Slide 3" class="carousel-slide">
+    </div>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+</section>
+
+<section class="products">
+    <h2>Featured Products</h2>
+    <div id="product-list" class="product-list"></div>
+</section>
+      
+      <div class="gallery">
+        <a target="_blank" href="download.jfif">
+          <img src="download.jfif" alt="Monitors" width="600" height="400">
+        </a>
+        <div class="desc">From ₹5999</div>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="download (1).jfif">
+          <img src="download (1).jfif" alt="Smart Watch" width="600" height="400">
+        </a>
+        <div class="desc">From ₹1699 </div>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="download (2).jfif">
+          <img src="download (2).jfif" alt="Best Of Action Toys" width="600" height="400">
+        </a>
+        <div class="desc">Upto 70% Off</div>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="download (3).jfif">
+          <img src="download (3).jfif" alt="Self Help Books" width="600" height="400">
+        </a>
+        <div class="desc">Min 20% Off</div>
+        <button>Add to Cart</button>
+      </div>
+<script src="script.js"></script>
+</body>
+</html>
